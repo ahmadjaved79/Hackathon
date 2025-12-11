@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: exam-seat-pro-server
+    runtime: node
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: exam-seat-pro-frontend
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: VITE_API_URL
+        value: https://exam-seat-pro-server.onrender.com/api
+      - key: VITE_USER_USERNAME
+        value: faculty
+      - key: VITE_USER_PASSWORD
+        value: 1234
+      - key: VITE_ADMIN_USERNAME
+        value: admin
+      - key: VITE_ADMIN_PASSWORD
+        value: 5678
+      - key: NODE_ENV
+        value: production
