@@ -93,9 +93,9 @@ export const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload, studentsCo
 
               <div className="text-xs text-slate-500 mb-2">Quick actions</div>
               <div className="flex flex-col gap-2">
-                <Button onClick={() => { if (fileInputRef.current) fileInputRef.current.click(); }} variant="outline" className="text-slate-700">
+                {/* <Button onClick={() => { if (fileInputRef.current) fileInputRef.current.click(); }} variant="outline" className="text-slate-700">
                   Upload file
-                </Button>
+                </Button> */}
                 <Button onClick={() => window.location.reload()} variant="ghost" className="text-slate-600">
                   Reset
                 </Button>
