@@ -561,7 +561,7 @@ const handleFileUpload = async (file: File) => {
       <div className="container mx-auto max-w-7xl space-y-8">
         <header className="text-center space-y-4">
           <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
-            Exam Seating using Vigilseat
+            From Excel to Exam Hall 
           </h1>
           <p className="text-muted-foreground text-lg">
             Professional exam seating arrangement management system
