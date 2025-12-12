@@ -578,7 +578,7 @@ const handleFileUpload = async (file: File) => {
           </div>
         </header>
 
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="">
           <FileUpload onFileUpload={handleFileUpload} studentsCount={students.length} />
         
         </div>

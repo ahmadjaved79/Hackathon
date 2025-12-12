@@ -249,7 +249,7 @@ export function generateRoomPDF(
   // === HEADER (page 1) ===
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(14);
-  doc.text('ANDHRA LOYOLA COLLEGE (AUTONOMOUS) :: VIJAYAWADA - 8', pageWidth / 2, 15, { align: 'center' });
+  doc.text('VigilSeat :: VIJAYAWADA - 8', pageWidth / 2, 15, { align: 'center' });
 
   if (examTitle) {
     doc.setFontSize(12);
@@ -946,7 +946,7 @@ export async function downloadCrossVerificationSheet(
     
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(14);
-    doc.text('ANDHRA LOYOLA COLLEGE (AUTONOMOUS)::VIJAYAWADA-8', pageWidth / 2, currentY, { align: 'center' });
+    doc.text('VigilSeat::VIJAYAWADA-8', pageWidth / 2, currentY, { align: 'center' });
     currentY += 7;
     
     if (isAutonomous) {
