@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div>
       <div className="p-4">
-        <Button variant="ghost" size="sm" onClick={() => navigate('/')}>
+        <Button variant="ghost" size="sm" onClick={() => navigate('/dashboard')}>
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Home
         </Button>
@@ -20,3 +20,5 @@ const Index = () => {
 };
 
 export default Index;
+
+

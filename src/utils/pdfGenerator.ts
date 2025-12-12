@@ -693,7 +693,7 @@ if(examDate){
       currentY = margin;
       doc.setFont('helvetica', 'bold');
       doc.setFontSize(14);
-      doc.text('ANDHRA LOYOLA COLLEGE (AUTONOMOUS)::VIJAYAWADA-8', pageWidth / 2, currentY, { align: 'center' });
+      doc.text('VigilSeat VIJAYAWADA-8', pageWidth / 2, currentY, { align: 'center' });
       currentY += 7;
 
       if (examTitle) {

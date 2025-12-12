@@ -36,7 +36,7 @@ export default function Landing() {
             </CardContent>
           </Card>
 
-          <Card className="border-2 border-primary/20 hover:border-primary/40 transition-all cursor-pointer group" onClick={() => navigate('/smartshala/login')}>
+          {/* <Card className="border-2 border-primary/20 hover:border-primary/40 transition-all cursor-pointer group" onClick={() => navigate('/smartshala/login')}>
             <CardHeader className="text-center">
               <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <Users className="w-8 h-8 text-primary" />
@@ -51,7 +51,7 @@ export default function Landing() {
                 Open Attendance System
               </Button>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </div>
